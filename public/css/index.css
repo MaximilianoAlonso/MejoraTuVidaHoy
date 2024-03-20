@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: rgb(46, 218, 132);
+    padding: 10px;
+    width: 100%;
+}
+header img{
+width: 18%;
+
+padding-left: 10px;
+}
+header h1{
+width: 60%;
+font-size: 22px;
+text-align: center;
+line-height: 50px;
+color: rgb(243, 243, 243);
+}
+nav ul{
+    display: flex;
+    width: 30%;
+    line-height: 50px;
+justify-content: left;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+main{
+    background-color: rgb(182, 248, 180);
+}
